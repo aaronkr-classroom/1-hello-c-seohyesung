@@ -13,27 +13,27 @@ int main(void) {
 	// signed short int				2바이트				(정수)
 	signed short int sshort = 1234;
 	printf("\nsigned short int:\n");
-	printf("Value: %c\n", sshort);
+	printf("Value: %d\n", sshort);
 	printf("Max: %d\n", SHRT_MAX); //limit.h의 상수
 	printf("Min: %d\n", SHRT_MIN);
 
 	// unsigned short int			2바이트				(정수)
 	unsigned short int ushort = 1234U; // U는 부호 없는거
 	printf("\nunsigned short int:\n");
-	printf("Value: %c\n", ushort);
+	printf("Value: %d\n", ushort);
 	printf("Max: %d\n", USHRT_MAX); //limit.h의 상수
 
 	// signed int					4바이트				(정수)
-	signed short int sint = 1234;
-	printf("\nsigned short int:\n");
-	printf("Value: %c\n", sint);
+	signed int sint = 12345;
+	printf("\nsigned int:\n");
+	printf("Value: %d\n", sint);
 	printf("Max: %d\n", INT_MAX); //limit.h의 상수
 	printf("Min: %d\n", INT_MIN);
 
 	// unsigned int					4바이트				(정수)
 	unsigned int uint = 12345U;
 	printf("\nunsigned int:\n");
-	printf("Value: %c\n", uint);
+	printf("Value: %d\n", uint);
 	printf("Max: %d\n", UINT_MAX); //limit.h의 상수
 
 	// long은 다른 운영체제에서 다른 바이트 크기입니다.
@@ -42,15 +42,15 @@ int main(void) {
 
 	// signed long int				4바이트				(정수)
 	signed long int slong = 123456789L;
-	printf("\nsigned short int:\n");
-	printf("Value: %c\n", slong);
+	printf("\nsigned long int:\n");
+	printf("Value: %d\n", slong);
 	printf("Max: %d\n", LONG_MAX); //limit.h의 상수
 	printf("Min: %d\n", LONG_MIN);
 
 	// unsigned long int			4바이트				(정수)
 	unsigned long int ulong = 123456789UL;
 	printf("\nunsigned long int:\n");
-	printf("Value: %c\n", ulong);
+	printf("Value: %d\n", ulong);
 	printf("Max: %d\n", ULONG_MAX); //limit.h의 상수
 
 	// float (항상 부호 있다)		4바이트				(실수)
